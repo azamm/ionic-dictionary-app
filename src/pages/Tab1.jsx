@@ -21,7 +21,7 @@ const Tab1 = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Dashboard</IonTitle>
+            <IonTitle size="large" className='thefont'>الداش بورد</IonTitle>
           </IonToolbar>
         </IonHeader>
         
@@ -31,7 +31,7 @@ const Tab1 = () => {
               <IonCard>
                 <IonCardContent>
                   <IonIcon icon={ bookOutline } color="primary" style={{ fontSize: "2rem" }} />
-                  <IonCardTitle>Ionic Dictionary App</IonCardTitle>
+                  <IonCardTitle className='thefont'>ايونيك ديكشينوري</IonCardTitle>
                   <p>Based on the English language</p>
                 </IonCardContent>
               </IonCard>

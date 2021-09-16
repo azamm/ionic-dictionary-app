@@ -35,6 +35,9 @@ import './theme/variables.css';
 import { useEffect } from 'react';
 import { fetchPopularWords } from './utils';
 
+import './fonts/fonts.css';
+
+
 const App = () => {
 
   useEffect(() => {
