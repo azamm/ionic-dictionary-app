@@ -15,13 +15,13 @@ const Tab1 = () => {
     <IonPage ref={ pageRef }>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Dashboard</IonTitle>
+          <IonTitle className='thefont'>الداشبورد</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large" className='thefont'>الداش بورد</IonTitle>
+            <IonTitle size="large" className='thefont'>الداشبورد</IonTitle>
           </IonToolbar>
         </IonHeader>
         
@@ -30,7 +30,7 @@ const Tab1 = () => {
             <IonCol size="12">
               <IonCard>
                 <IonCardContent>
-                  <IonIcon icon={ bookOutline } color="primary" style={{ fontSize: "2rem" }} />
+                  <IonIcon icon={ bookOutline } color="primary" style={{ fontSize: "2rem" }} slot="primary" />
                   <IonCardTitle className='thefont'>ايونيك ديكشينوري</IonCardTitle>
                   <p>Based on the English language</p>
                 </IonCardContent>
